@@ -21,6 +21,10 @@
     border-radius: 5px;
     padding: 8px 15px 8px 16px;
 }
+.priamry-btn:hover{
+     background-color: #00ff15;
+}
+
 .common-color {
     color: #4E47FF;
     text-transform: uppercase;
@@ -93,8 +97,11 @@ p.action-subtitle {
 .users-section-bg{
     background-color: rgba(78, 71, 255, 0.1);
 }
-.users-section{
-  padding-top: 50px;
+.users-section {
+    padding-top: 5px;
+    border-radius: 20px;
+    height: 306px;
+    padding-bottom: 36px;
 }
 h3.users-title{
     text-align: center;
@@ -127,7 +134,13 @@ h3.users-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 60px;
+}
+.feedback-item {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 2px 3px #e5dfdff0;
 }
 .feesbacks-avatar{
     display: flex;
@@ -146,14 +159,21 @@ h3.feedback-title {
 }
 
 .feedback-avatar-title {
-
+    /* margin-top: 10px; */
 }
 .feedback-avatar-title h3{
     font-size: 16px;
     color: #757575;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
-.feedback-avatar-title p{
-    
+.feedback-avatar-title p {
+    color: #B3B3B3;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 /* Css for focus-section */
@@ -161,6 +181,7 @@ h3.feedback-title {
     background-color: #ffffff;
     padding: 16px 0px 50px 0px;
     margin: 80px 0px 80px 0px;
+    border-radius: 15px;
 }
 h3.focus-title{
     text-align: center;
@@ -188,14 +209,14 @@ h3.focus-title{
     gap: 100px;
 }
 h3.touch-title {
-    font-size: 75px;
+    font-size: 68px;
     font-weight: bold;
 }
 .touch-column{
     width: 50%;
+    margin-right: 31px;
 }
 .touch-column input[type="text"], .touch-column input[type="email"], .touch-column textarea{
-    width: 100%;
     height: 34px;
     display: block;
     padding: 10px 20px;
@@ -203,13 +224,25 @@ h3.touch-title {
     border: none;
     background-color: #ffffff;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
 
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
 /* Css for footer */
 footer nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+footer nav ul li a {
+    color: #8987A1;
 }
 h3.footer-title.common-color {
     text-align: center;
