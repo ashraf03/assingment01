@@ -102,6 +102,7 @@ p.action-subtitle {
     border-radius: 20px;
     height: 306px;
     padding-bottom: 36px;
+    margin-top: 60px;
 }
 h3.users-title{
     text-align: center;
@@ -180,7 +181,7 @@ h3.feedback-title {
 .focus-section{ 
     background-color: #ffffff;
     padding: 16px 0px 50px 0px;
-    margin: 80px 0px 80px 0px;
+    margin: 100px 0px 80px 0px;
     border-radius: 15px;
 }
 h3.focus-title{
@@ -235,6 +236,9 @@ label {
     margin-bottom: 5px;
 }
 /* Css for footer */
+footer{
+    margin-top: 80px;
+}
 footer nav ul{
     display: flex;
     justify-content: center;
