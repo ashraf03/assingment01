@@ -152,3 +152,22 @@ h3.feedback-title {
 .feedback-avatar-title p{
     
 }
+
+/* Css for focus-section */
+.focus-section{ 
+    
+}
+h3.focus-title{
+    text-align: center;
+    font-size: 50px;
+}
+.focus-section p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    margin: -29px 0px 08px 0px;
+}
+.focus-section img{ 
+    border-radius: 30px;
+    margin: 70px 0px 0px 0px;
+}
