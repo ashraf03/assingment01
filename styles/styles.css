@@ -24,7 +24,6 @@
 .priamry-btn:hover{
      background-color: #00ff15;
 }
-
 .common-color {
     color: #4E47FF;
     text-transform: uppercase;
@@ -86,12 +85,13 @@ main{
     border-radius: 48px;
 }
 h3.action-title{
-    font-size: 41px;
+    font-size: 38px;
     margin-bottom: 23px;
 }
 p.action-subtitle {
     color: #252432;
     margin-bottom: 22px;
+    font-size: 22px;
 }
 /* Css for users-section */
 .users-section-bg{
@@ -116,9 +116,6 @@ h3.users-title{
     justify-content: center;
     gap: 158px;
     text-align: center;
-}
-.user-cloumn{
-
 }
 .user-cloumn h2{
     font-size: 80px;
@@ -158,7 +155,6 @@ h3.feedback-title {
 .feedback-avatar img {
     border-radius: 50%;
 }
-
 .feedback-avatar-title {
     /* margin-top: 10px; */
 }
@@ -176,7 +172,6 @@ h3.feedback-title {
     padding: 0;
     display: block;
 }
-
 /* Css for focus-section */
 .focus-section{ 
     background-color: #ffffff;
