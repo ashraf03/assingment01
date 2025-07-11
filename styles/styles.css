@@ -118,4 +118,37 @@ h3.users-title{
     color: rgba(0, 0, 0, 0.5);
     font-size: 14px;
 }
+
+/* Css for feedback-item */
+.feedback-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.feesbacks-avatar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h3.feedback-title {
+    text-align: center;
+    margin: 90px 0px 63px 0px;
+    font-size: 39px;
+    font-weight: bold;
+}
+.feedback-avatar img {
+    border-radius: 50%;
+}
+
+.feedback-avatar-title {
+
+}
+.feedback-avatar-title h3{
+    font-size: 16px;
+    color: #757575;
+}
+.feedback-avatar-title p{
     
+}
