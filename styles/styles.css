@@ -72,10 +72,10 @@ main{
     margin-top: 68px;
 }
 .action-cloumn{
-    margin-left: 100px;
+    /* margin-left: 100px; */
 } 
 .action-cloumn img {
-    margin: 50px 100px 50px 0px;
+    margin: 50px 0px 50px 0px;
     border-radius: 48px;
 }
 h3.action-title{
@@ -86,3 +86,36 @@ p.action-subtitle {
     color: #252432;
     margin-bottom: 22px;
 }
+/* Css for users-section */
+.users-section-bg{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+.users-section{
+  padding-top: 50px;
+}
+h3.users-title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 60px 0px -19px 0px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 158px;
+    text-align: center;
+}
+.user-cloumn{
+
+}
+.user-cloumn h2{
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+.user-cloumn p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+    
