@@ -6,6 +6,9 @@
     "wdth" 100;
 }
 /* shared css */
+.body-bg{
+    background-color: #F5F8FF;
+}
 .common-margin{
     margin-left: 150px;
     margin-right: 150px;
@@ -155,7 +158,9 @@ h3.feedback-title {
 
 /* Css for focus-section */
 .focus-section{ 
-    
+    background-color: #ffffff;
+    padding: 16px 0px 50px 0px;
+    margin: 80px 0px 80px 0px;
 }
 h3.focus-title{
     text-align: center;
@@ -167,7 +172,34 @@ h3.focus-title{
     font-size: 17px;
     margin: -29px 0px 08px 0px;
 }
+.focus-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .focus-section img{ 
     border-radius: 30px;
     margin: 70px 0px 0px 0px;
+}
+/* css for touch-section */
+.touch-section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+h3.touch-title {
+    font-size: 75px;
+    font-weight: bold;
+}
+.touch-column{
+    width: 50%;
+}
+.touch-column input[type="text"], .touch-column input[type="email"], .touch-column textarea{
+    width: 100%;
+    height: 34px;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ffffff;
 }
