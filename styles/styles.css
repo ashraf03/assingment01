@@ -58,3 +58,31 @@ nav ul li a {
     font-size: 55px;
     font-weight: bold;
 }
+/* Css for main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* Css for action */
+.action{
+    /* background-color: #f7f7f7; */
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top: 68px;
+}
+.action-cloumn{
+    margin-left: 100px;
+} 
+.action-cloumn img {
+    margin: 50px 100px 50px 0px;
+    border-radius: 48px;
+}
+h3.action-title{
+    font-size: 41px;
+    margin-bottom: 23px;
+}
+p.action-subtitle {
+    color: #252432;
+    margin-bottom: 22px;
+}
